@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section style="height: 150px;" class="flex justify-center items-center text-center bg-pink-500 container mx-auto mt-5">
+        <div class="grid grid-cols-2 gap-3">
+            <div class="w-9/12">
+                <input type="text" name="" id="input-field" class="bg-black text-white p-3 w-full block max-w-xs" placeholder="Search by id">
+            </div>
+            <div class="w-3/12">
+                <button onclick="loadById()" class="p-3 bg-blue-500 text-white hover:bg-black">search</button>
+            </div>
+        </div>
+
+    </section>
+    <h1 class="text-center container w-50 mx-auto text-red-800 mt-2">For new advice reload please</h1>
+    <section id="container" class="text-3xl text-blue-500 text-center mt-5">
+
+
+    </section>
+    <script src="js/practice4.js"></script>
+</body>
+
+</html>
